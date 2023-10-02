@@ -22,7 +22,7 @@ body{
     margin: 65px auto 0;
 }
 
-header{
+nav {
    display: flex;
    justify-content: space-between;
    padding: 0;
@@ -31,19 +31,25 @@ header{
    width: 1005px;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-ul {
-    list-style: none;
+ul{
     display: flex;
     gap: 48px;
-    padding: 0;
+    list-style: none;
     margin: 0;
+    padding: 0;
+    font-family: 'Mulish' , sans-serif
 
 }
+
+ul li a{
+    text-decoration: none;
+    color: var(--cor05);
+}
+
+ul li a:hover{
+    font-weight: bold;
+}
+
 
 main{
     display: flex;
@@ -81,9 +87,17 @@ p{
 }
 
 button{
+    width: 179px;
+    height: 56px;
     background-color: var(--cor04);
     color: #F9F9F9;
+    text-transform: uppercase;
+    text-align:center;
     
+}
+button img{
+    width: 24px;
+    height: 24px;
 }
 
 footer{
@@ -91,7 +105,18 @@ footer{
     height: 28px;
     margin: auto;
     text-align: center;
+    font-family: 'Open Sans' sans-serif;
+    color: var(--cor05);
 }
+
+footer a{
+    font-family: 'Open Sans' , sans-serif;
+    color: var(--cor05);
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
 
 .Decoration{
     position: fixed;
