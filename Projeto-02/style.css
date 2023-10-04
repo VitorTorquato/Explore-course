@@ -45,12 +45,17 @@ ul{
 }
 
 ul li a{
+    opacity: 0.50;
+}
+
+ul li a{
     text-decoration: none;
     color: var(--cor05);
 }
 
 ul li a:hover{
     font-weight: bold;
+    opacity: 100%;
 }
 
 
