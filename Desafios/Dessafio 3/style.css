@@ -1,0 +1,99 @@
+@charset 'UTF-8';
+
+
+:root{
+    --color1:#2F2E41;
+    --color2:#00BFA6;
+    --color3:#C2C2C2;
+    --color4:#FFFFFF;
+}
+
+
+body{
+    margin: 0;
+    background-color: var(--color1);
+
+}
+
+#page{
+    margin: auto;
+    background-color:var(--color1) ;
+    height: 720;
+    width: 1280px;
+    
+}
+
+nav{
+    width: 1083px;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+
+}
+
+ul li{
+    list-style: none;
+    color: #FFFFFF;
+}
+
+main{
+    width: 1092px;
+    height: 283px;
+    margin:101px auto 127px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section{
+    text-align: center;
+}
+
+section h1 {
+    width: 604px;
+    height: 40px;
+    color: var(--color4);
+
+    font-size: 36px;
+    line-height: 40px;
+
+    
+
+
+}
+section  p{
+    width: 604px;
+    height: 168px;
+    color: var(--color4);
+    
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.line{
+    width: 560px;
+    height: 0px;
+    margin:0px auto 27px;
+    border: 1px solid var(--color2);
+}
+footer{
+    width: 462px;
+    height: 28px;
+    margin: auto;
+    text-align: center;
+}
+
+.Cadiado{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+}
