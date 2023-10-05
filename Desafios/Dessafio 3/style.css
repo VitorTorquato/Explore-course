@@ -19,10 +19,11 @@ body{
 }
 
 #page{
+    width: 1280;
+    height: 720px;
     margin: auto;
     background-color:var(--color1) ;
-    height: 720;
-    width: 1280px;
+    
     
 }
 
@@ -117,7 +118,8 @@ section  p{
 footer{
     width: 570px;
     height: 55px;
-    margin: auto;
+    margin:auto ;
+    padding-bottom: 27px;
     text-align: center;
 
     font-family: 'JetBrains Mono', monospace; 
@@ -130,5 +132,8 @@ footer{
     position: fixed;
     bottom: 0;
     left: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
 
 }
