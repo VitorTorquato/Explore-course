@@ -1,5 +1,6 @@
 @charset 'UTF-8';
 
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Open+Sans:wght@400;700&display=swap');
 
 :root{
     --color1:#2F2E41;
@@ -12,6 +13,8 @@
 body{
     margin: 0;
     background-color: var(--color1);
+    font-family: 'Open Sans' , sans-serif;
+
 
 }
 
@@ -30,6 +33,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: auto;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 ul{
@@ -39,11 +43,15 @@ ul{
 
 }
 
-ul li{
+ul li {
     list-style: none;
     color: #FFFFFF;
 }
 
+a{
+    text-decoration: none;
+    color:var(--color4);
+}
 main{
     width: 1092px;
     height: 283px;
@@ -55,27 +63,49 @@ main{
 
 section{
     text-align: center;
+    
+    
 }
 
-section h1 {
-    width: 604px;
+section h2 {
+    width: 361px;
     height: 40px;
+    display: inline;
+    text-align: center;   
+    
+ 
     color: var(--color4);
-
+    font-family: 'JetBrains Mono', monospace;
     font-size: 36px;
+    font-weight: bold;
     line-height: 40px;
 
-    
-
 
 }
+
+section h2+h2{
+    margin-left: 15px;
+
+}
+
+span{
+    width: 248px;
+    height: 40px;
+    color: var(--color2);
+    font-weight: bold;   
+}
+
+
 section  p{
     width: 604px;
     height: 168px;
-    color: var(--color4);
-    
+    margin: 59px auto 0px ;
+   
+   
+    color: var(--color2); 
     font-size: 16px;
     line-height: 28px;
+
 }
 
 .line{
@@ -85,10 +115,15 @@ section  p{
     border: 1px solid var(--color2);
 }
 footer{
-    width: 462px;
-    height: 28px;
+    width: 570px;
+    height: 55px;
     margin: auto;
     text-align: center;
+
+    font-family: 'JetBrains Mono', monospace; 
+    color: var(--color4);
+    font-size: 14px;
+    line-height: 28px;
 }
 
 .Cadiado{
