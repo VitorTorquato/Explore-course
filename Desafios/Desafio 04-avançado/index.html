@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio-04/Avançado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="page">
+        <header>
+            <h1>avalie a sua mentoria</h1>
+            <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+            <img src="img1.svg" alt="Balão de conversa com estrelas para indicar se é cinco estrelas">
+            <div class="legend-informations">
+                <h1>Informações pessoais</h1>
+            </div>
+        </header>
+        <form>
+
+            <fieldset>
+                <div class="fieldset-wrapper">
+                    
+                        <div class="name-surName">
+                            <div class="input-wrapper">
+                                <label for="name">Nome</label>
+                                <input type="text" id="name">
+                            </div>
+                            <div class="input-wrapper">
+                                <label for="surName">Sobrenome</label>
+                                <input  type="text" id="surName">
+                            </div>
+                        </div>
+                   
+                    <div class="input-wrapper">
+                        <label for="E-mail">E-mail <span>(Digite um e-mail válido)</span></label>
+                        <input type="email" id="E-mail" required>
+                    </div>
+                </div>
+
+            </fieldset>
+                <fieldset>
+                    <div class="fieldset-wrapper">
+                        <legend>Informaçoes do mentor</legend>
+                        <div class="input-wrapper">
+                            <label for="Mentor's-name">Selecione quem foi o seu mentor</label>
+                            <select id="Mentor's-name">
+                                <option value=name">Vitor Torquato</option>
+                                <option value="name">Leticia Rocchi</option>
+                                <option value="name">Mayke Brito</option>
+                                <option value="name">Bruno Sparacini</option>
+                                <option value="name">Renis Sousa</option>
+                            </select>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="feedback">Feedback sobre o mentor</label>
+                            <textarea id="feedback"></textarea>
+                        </div>
+                        <div class="input-checkbox">
+                            <input type="checkbox" id="checkbox-area" >
+                            <label for="checkbox-area">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+                        </div>
+                    </div>
+                </fieldset>
+            <fieldset>
+                <div class="fieldset-wrapper">
+                    <legend>Agendando próxima mentoria</legend>
+                    <div class="dates-hours">
+                        <div class="input-wrapper">
+                            <label for="date">Data <span>(DD/MM/AAAA)</span></label>
+                            <input type="date" id="time">
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="time">Das</label>
+                            <input type="time" id="time">
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="time">Até</label>
+                            <input type="time" id="time">
+                        </div>
+                                        </div>
+                    </div>
+
+            </fieldset>
+
+                <button >
+                    Salvar
+                </button>
+           
+        </form>
+    </div>
+    
+</body>
+</html>
