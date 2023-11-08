@@ -72,6 +72,7 @@ h1{
     animation: shaking 0.3s;
     animation-iteration-count: infinite;
     
+    cursor: pointer;
 }
 button{
     border: none;
@@ -79,6 +80,8 @@ button{
 
     width: 30rem;
     height: 20rem;
+
+    
 
 }
 
@@ -127,7 +130,7 @@ button{
 .screen2 button{
     width: 17.4rem;
     height: 5.2rem;
-    background-color:#FF9500;;
+    background-color:#FF9500;
     border-radius: .4rem;
     padding: 1.6rem;
     margin-top: 1.7rem;
@@ -141,6 +144,9 @@ button{
     font-weight: 700;
     }
 
+    .screen2 button:hover{
+        background-color: #eb9011;
+    }
 
     @keyframes shaking {
         0% {
